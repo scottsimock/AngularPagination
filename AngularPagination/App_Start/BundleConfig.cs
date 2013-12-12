@@ -36,7 +36,8 @@ namespace AngularPagination.App_Start
 
             bundles.Add(new StyleBundle("~/styles/css").Include(
                 "~/Content/bootstrap.css",
-                "~/Content/bootstrap-theme.css"
+                "~/Content/bootstrap-theme.css",
+                "~/Content/override.bootstrapui.css"
             ));
 
         }

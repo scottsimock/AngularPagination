@@ -40,6 +40,7 @@
     </div>
 
     <div ng-show="totalPages > 1" class="align-center">
+        <!--http://stackoverflow.com/questions/17994490/angular-ui-bootstrap-pagination-not-rendered-missing-styles-->
         <pagination 
             num-pages="totalPages" 
             total-items="customersCount"
@@ -50,7 +51,7 @@
             on-select-page="selectPage(page)" 
             first-text="start" 
             last-text="end"
-        ></pagination>
+            ></pagination>
     </div>
 
 </div>
